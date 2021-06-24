@@ -13,11 +13,11 @@ public class Q7 {
         int sum = 0; // 합
 
         for (int i = 1; i <= n; i++) {
-            if(i < n)
+            if (i < n)
                 System.out.print(i + " + ");
             else
-                System.out.print(i);
-            sum += i; // sum에 i를 더함
+                System.out.println(i);
+            sum += i;
         }
         System.out.println(" = " + sum);
     }
