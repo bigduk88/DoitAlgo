@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Q2 {
 
-    static void swap(int a[], int idx1, int idx2) {
+    static void swap(int[] a, int idx1, int idx2) {
         int t = a[idx1];
         a[idx1] = a[idx2];
         a[idx2] = t;
     }
 
-    static void print(int a[]) {
+    static void print(int[] a) {
         for (int i = 0; i < a.length; i++)
             System.out.println(a[i] + " ");
         System.out.println();
