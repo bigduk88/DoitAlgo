@@ -18,7 +18,7 @@ public class Q2 {
 
     static void reverse(int a[]) {
         print(a);
-        for (int i = 0; i < a.length /2; i++) {
+        for (int i = 0; i < a.length / 2; i++) {
             System.out.println("a {" + i + "]와 a[" + (a.length - i - 1) + "]를 교환합니다.");
             swap(a, i, a.length - i - 1);
             print(a);
