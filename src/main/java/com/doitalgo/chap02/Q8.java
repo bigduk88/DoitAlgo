@@ -3,7 +3,7 @@ package com.doitalgo.chap02;
 import java.util.Scanner;
 
 public class Q8 {
-    static int[][] mday = {
+    static int[][] mdays = {
             {31,28,31,30,31,30,31,31,30,31,30,31},
             {31,29,31,30,31,30,31,31,30,31,30,31},
     };
@@ -14,7 +14,7 @@ public class Q8 {
 
     static int dayOfYear(int y, int m, int d) {
         while (--m != 0)
-            d += mday[isLeap(y)][m - 1];
+            d += mdays[isLeap(y)][m - 1];
         return (d);
     }
 
