@@ -22,6 +22,6 @@ public class PrimeNumber2 {
         for (int i = 0; i < ptr; i++)
             System.out.println(prime[i]);
 
-        System.out.println("나눈셋ㅁ을 수행한 횟수 : " + counter);
+        System.out.println("나눗셈을 수행한 횟수 : " + counter);
     }
 }
