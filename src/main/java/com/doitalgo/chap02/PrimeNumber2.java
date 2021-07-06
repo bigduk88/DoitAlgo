@@ -1,6 +1,6 @@
 package com.doitalgo.chap02;
 
-public class PrimNumber2 {
+public class PrimeNumber2 {
     public static void main(String[] args) {
         int counter = 0;
         int ptr = 0;
